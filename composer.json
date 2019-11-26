@@ -1,0 +1,17 @@
+{
+    "name": "user/kurs-testy",
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    }
+}
